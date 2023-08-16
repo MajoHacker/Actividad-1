@@ -14,7 +14,8 @@
 //
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
-// @Complexity	??
+// @Complexity	O(1) debido a que en cada iteración se realizan
+//		operaciones constantes.
 // =================================================================
 unsigned int sumaIterativa(unsigned int n) {
 	int suma = 0;
@@ -49,10 +50,12 @@ unsigned int sumaRecursiva(unsigned int n) {
 //
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
-// @Complexity	??
+// @Complexity	O(1) lo que significa que el tiempo de ejecución
+//		es constante, y no importa el valor asignado a "n",
+//		
 // =================================================================
 unsigned int sumaDirecta(unsigned int n) {
-	return (n * (n + 1)) / 2;
+	return (n * n) / 2 + n / 2;
 }
 
 #endif /* ACTIVITY_H */
