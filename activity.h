@@ -56,7 +56,7 @@ unsigned int sumaRecursiva(unsigned int n) {
 //		todos los casos.
 // =================================================================
 unsigned int sumaDirecta(unsigned int n) {
-	return (n * (n + 1) / 2;
+	return (n * (n + 1) / 2);
 }
 
 #endif /* ACTIVITY_H */
