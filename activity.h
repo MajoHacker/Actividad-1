@@ -15,7 +15,7 @@
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
 // @Complexity	O(1) debido a que en cada iteración se realizan
-//		operaciones constantes.
+//		        operaciones constantes.
 // =================================================================
 unsigned int sumaIterativa(unsigned int n) {
 	int suma = 0;
@@ -32,8 +32,8 @@ unsigned int sumaIterativa(unsigned int n) {
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
 // @Complexity	O(n) ya que se tiene una sola llamada recursiva en 
-//  		ejecución, y su parámetro de control se disminuye
-//		en un valor constante.
+//  		    ejecución, y su parámetro de control se disminuye
+//		        en un valor constante.
 // =================================================================
 unsigned int sumaRecursiva(unsigned int n) {
 	if (n == 1) {
@@ -51,9 +51,9 @@ unsigned int sumaRecursiva(unsigned int n) {
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
 // @Complexity	O(1) lo que significa que el tiempo de ejecución
-//		es constante, y no importa el valor asignado a "n",
-//		ya que las operaciones realizadas son las mismas en
-//		todos los casos.
+//		        es constante, y no importa el valor asignado a "n",
+//		        ya que las operaciones realizadas son las mismas en
+//		        todos los casos.
 // =================================================================
 unsigned int sumaDirecta(unsigned int n) {
 	return (n * (n + 1) / 2);
