@@ -22,7 +22,6 @@ unsigned int sumaIterativa(unsigned int n) {
         suma = suma + i;
     }
     return suma;
-	return 0;
 }
 
 // =================================================================
@@ -40,7 +39,6 @@ unsigned int sumaRecursiva(unsigned int n) {
 	else {
         return n + sumaRecursiva(n - 1);
     }
-	return 0;
 }
 
 // =================================================================
@@ -53,7 +51,6 @@ unsigned int sumaRecursiva(unsigned int n) {
 // =================================================================
 unsigned int sumaDirecta(unsigned int n) {
 	return (n * (n + 1)) / 2;
-	return 0;
 }
 
 #endif /* ACTIVITY_H */
