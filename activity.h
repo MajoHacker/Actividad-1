@@ -52,7 +52,8 @@ unsigned int sumaRecursiva(unsigned int n) {
 // @return	The result of the addition from 1 to n.
 // @Complexity	O(1) lo que significa que el tiempo de ejecución
 //		es constante, y no importa el valor asignado a "n",
-//		
+//		ya que las operaciones realizadas son las mismas en
+//		todos los casos.
 // =================================================================
 unsigned int sumaDirecta(unsigned int n) {
 	return (n * n) / 2 + n / 2;
