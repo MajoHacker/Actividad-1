@@ -30,7 +30,9 @@ unsigned int sumaIterativa(unsigned int n) {
 //
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
-// @Complexity	??
+// @Complexity	O(n) ya que se tiene una sola llamada recursiva en 
+//  		ejecución, y su parámetro de control se disminuye
+//		en un valor constante.
 // =================================================================
 unsigned int sumaRecursiva(unsigned int n) {
 	if (n == 1) {
